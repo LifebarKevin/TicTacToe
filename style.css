@@ -1,0 +1,65 @@
+body{
+	width: 100%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 50%;
+	height: 450px;
+	display: inline-block;
+	float: left;
+	margin-left: 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* For Spacing  */
+
+.r1,.r2,.r3{
+	width: 99%; 
+	height: 33%;
+	display: inline-block;
+	float: left;
+	margin: -1px auto;
+}
+
+
+.r1c1,.r1c2,.r1c3,.r2c1,.r2c2,.r2c3,.r3c1,.r3c2,.r3c3{
+	width: 30%; 
+	height: 98%; 
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+}
+
+/* For Borders on the blocks */
+/* Left Line for the top column */
+
+.r1c1,.r1c2,.r2c1,.r2c2,.r3c1,.r3c2{
+	border-right: black 2px solid;
+}
+
+/* Bottom Lines for blocks needed. */
+.r1c1,.r1c2,.r1c3,.r2c1,.r2c2,.r2c3{
+		border-bottom: black 2px solid;
+}
+
+/* Styling for aside */
+
+aside{
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	padding: 5% 1% 1% 1%;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.notes{
+	text-align: left;
+}
+/* for styling the X and O*/ 
+.block{
+	font-size: 900%;
+	text-align: center;
+}
